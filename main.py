@@ -1,26 +1,29 @@
-x = ()
-print(x)
+
 
 x = (1, 2, 3)
 print(x)
 
-x = (1, "Hello", 3.4)
-print(x)
+y = (1, "Hello", 3.4)
+print(y)
 
-x = ("mouse", [8, 4, 6], (1, 2, 3))
-print(x)
+z = ("mouse", [8, 4, 6], (1, 2, 3))
+print(z)
 
-x = ('p', 'e', 'r', 'm', 'i', 't')
-print(x[0])
-print(x[5])
+f = ('p', 'e', 'r', 'm', 'i', 't')
+print(f[0])
+print(f[5])
 
-x = ("mouse", [8, 4, 6,], (1, 2, 3))
+p = ("mouse", [8, 4, 6,], (1, 2, 3))
 
-print(x[0][3])
-print(x[1][1])
+print(p[0][3])
+print(p[1][1])
 
 
 print("sliced :", x[1:4])
 
 for letter in (x):
     print("Hello", letter)
+
+    
+x = (1, 2, 3)
+p = list(p)
